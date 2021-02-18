@@ -16,8 +16,6 @@
 		AB654D9D212DAA3E00080E76 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654D9C212DAA3E00080E76 /* ViewModel.swift */; };
 		ABAF8A6121303418001DA576 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF8A5D21303418001DA576 /* Crashlytics.framework */; };
 		ABAF8A6221303418001DA576 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF8A5E21303418001DA576 /* Fabric.framework */; };
-		ABAF8A6F2130372C001DA576 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABAF8A6D2130372C001DA576 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ABAF8A702130372C001DA576 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABAF8A6E2130372C001DA576 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ABAF8A6F2130372C001DA576 /* Nimble.framework in CopyFiles */,
-				ABAF8A702130372C001DA576 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +54,6 @@
 		AB654D9C212DAA3E00080E76 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		ABAF8A5D21303418001DA576 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Carthage/Build/iOS/Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		ABAF8A5E21303418001DA576 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Carthage/Build/iOS/Fabric.framework; sourceTree = SOURCE_ROOT; };
-		ABAF8A6D2130372C001DA576 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		ABAF8A6E2130372C001DA576 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +79,6 @@
 		AB654D70212D686700080E76 = {
 			isa = PBXGroup;
 			children = (
-				ABAF8A6D2130372C001DA576 /* Nimble.framework */,
-				ABAF8A6E2130372C001DA576 /* Quick.framework */,
 				AB654D7B212D686700080E76 /* TruthOrDare */,
 				AB654D93212DA86400080E76 /* TruthOrDareTests */,
 				ABAF8A5B21303403001DA576 /* Frameworks */,
@@ -245,7 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/Carthage/Build/iOS/Fabric.framework/run\" ccecd894afb473edc8152a03eea12a134cb9e970 4094f91a9ae4c861e895e9a7864c533e471ca4a85ec8ba6ea45082a6bc16422e";
+			shellScript = "\"${PROJECT_DIR}/Carthage/Build/iOS/Fabric.framework/run\" ccecd894afb473edc8152a03eea12a134cb9e970 4094f91a9ae4c861e895e9a7864c533e471ca4a85ec8ba6ea45082a6bc16422e\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
