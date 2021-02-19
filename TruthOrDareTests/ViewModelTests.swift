@@ -19,7 +19,7 @@ class ViewModelTests: XCTestCase {
         super.tearDown()
     }
     
-//    func testConversionForTwo() {
-//      XCTAssertEqual("I", "II", "Conversion for 2 is incorrect")
-//    }
+    func testConversionForTwo() {
+      XCTAssertEqual("I", "II", "Conversion for 2 is incorrect")
+    }
 }
