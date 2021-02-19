@@ -39,3 +39,4 @@ class ViewModel {
         return dares[number]
     }
 }
+
